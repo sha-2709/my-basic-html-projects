@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+
+    <h1>Weebsite Feedback Form</h1>
+    
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <p>How would you rate your experience?</p>
+        <label><input type="radio" name="rating" value="Excellent">Excellent</label><br>
+        <label><input type="radio" name="rating" value="Good">Good</label><br>
+        <label><input type="radio" name="rating" value="Poor">Poor</label><br>
+
+        <p>Which features did you use?</p>
+        <label><input type="checkbox" name="features" value="Blog">Blog</label><br>
+        <label><input type="checkbox" name="features" value="Forum">Forum</label><br>
+        <label><input type="checkbox" name="features" value="Documentation">Documentation</label><br>
+        
+        <label for="suggestion">What would you like us to improve?</label><br>
+        <select name="suggestion" id="suggestion">
+            <option value="Design">Design</option>
+            <option value="Content">Content</option>
+            <option value="Navigation">Navigation</option>
+            <option value="Performance">Performance</option>
+        </select><br><br>
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea name="comments" id="comments" rows="5" cols="30"></textarea><br><br>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</body>
+</html>
+<!-- 
+DOUBTS:
+1-L20 TO L40 -->
